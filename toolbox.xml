@@ -1,0 +1,45 @@
+<xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
+  <category name="Buzzer" colour="#e63022" icon="volume-up">
+    <block type="uno_buzzer_init" />
+    <block type="uno_buzzer_music_play_built_in" />
+    <block type="uno_buzzer_music_play_built_in_until_done" />
+    <block type="uno_buzzer_music_play_note">
+      <field name="DURATION">1</field>
+      <value name="PITCH">
+        <shadow type="uno_buzzer_music_note">
+          <field name="PITCH">7</field>
+        </shadow>
+      </value>
+    </block>
+    <block type="uno_buzzer_music_stop" />
+    <block type="uno_buzzer_music_rest">
+      <field name="DURATION">1</field>
+    </block>      
+    <block type="uno_buzzer_music_pitch">
+      <value name="pitch">
+        <shadow type="math_number">
+          <field name="NUM">440</field>
+        </shadow>
+      </value>
+      <value name="duration">
+        <shadow type="math_number">
+          <field name="NUM">1000</field>
+        </shadow>
+      </value>
+    </block>
+    <block type="uno_buzzer_music_set_tempo">
+      <value name="ticks">
+        <shadow type="math_number">
+          <field name="NUM">4</field>
+        </shadow>
+      </value>
+      <value name="bpm">
+        <shadow type="math_number">
+          <field name="NUM">120</field>
+        </shadow>
+      </value>
+    </block>
+    <block type="uno_buzzer_music_reset" />
+    <block type="uno_buzzer_music_get_tempo" />
+  </category>
+</xml>
