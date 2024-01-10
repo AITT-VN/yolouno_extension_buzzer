@@ -1,6 +1,6 @@
 {
     "name": "BUZZER",
-    "description": "Mục mở rộng của Yolo UNO sử dụng loa buzzer",
+    "description": "Thư việ để phát nhạc sử dụng còi báo buzzer",
     "libs": [
         "buzzer.py"
     ],

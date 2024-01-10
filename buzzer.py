@@ -12,7 +12,7 @@ from time import sleep_ms
 from setting import *
 from utility import *
 
-UM = ['r4:1', 'g:0.5', 'g:0.5', 'g:0.5', 'eb:4', 'r:1', 'f:0.5', 'f:0.5', 'f:0.5', 'd:4']
+DADADADUM = ['r4:1', 'g:0.5', 'g:0.5', 'g:0.5', 'eb:4', 'r:1', 'f:0.5', 'f:0.5', 'f:0.5', 'd:4']
 
 ENTERTAINER = [
     'd4:0.5', 'd#:0.5', 'e:0.5', 'c5:1', 'e4:0.5', 'c5:1', 'e4:0.5', 'c5:1.5', 'c:0.5', 'd:0.5',
